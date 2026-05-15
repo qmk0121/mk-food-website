@@ -311,3 +311,17 @@ footer{
     }
 
 }
+
+.language-btn{
+    border:none;
+    background:#b91c1c;
+    color:white;
+    padding:8px 14px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.language-btn:hover{
+    background:#991b1b;
+}
