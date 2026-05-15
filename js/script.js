@@ -4,7 +4,16 @@ function toggleMenu(){
 }
 
 function orderNow(){
-    alert("WhatsApp ordering feature will be added soon.");
+    const phoneNumber = "6588352243";
+
+    const message = "Hi MK Food, I would like to order Chinese New Year cookies.";
+
+    const whatsappURL =
+    "https://wa.me/" + phoneNumber +
+    "?text=" + encodeURIComponent(message);
+
+    window.open(whatsappURL, "_blank");
+
 }
 
 let currentLanguage = "en";
