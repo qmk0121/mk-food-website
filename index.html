@@ -23,10 +23,11 @@
             <button class="menu-toggle" onclick="toggleMenu()">☰</button>
 
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#products">Cookies</a></li>
-                <li><a href="#story">Our Story</a></li>
-                <li><a href="#contact">Order</a></li>
+                <li><a href="index.html" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="#products" data-en="Cookies" data-zh="饼干">Cookies</a></li>
+                <li><a href="#story" data-en="Our Story" data-zh="品牌故事">Our Story</a></li>
+                <li><a href="#contact" data-en="Order" data-zh="下单">Order</a></li>
+                <li><button class="language-btn" onclick="toggleLanguage()">中文</button></li>
             </ul>
         </nav>
     </header>
@@ -37,16 +38,21 @@
             <div class="hero-content">
                 <p class="eyebrow">Chinese New Year Cookies · Muar, Malaysia</p>
 
-                <h2>Homemade festive cookies for a warmer celebration.</h2>
+                <h2 
+                    data-en="Homemade festive cookies for a warmer celebration."
+                    data-zh="手作年饼，让团圆更有年味。">
+                    Homemade festive cookies for a warmer celebration.
+                </h2>
 
-                <p class="hero-text">
-                    MK Food brings classic Chinese New Year cookies with a local Muar touch —
-                    crafted for family gatherings, gifting, and festive moments.
+                <p class="hero-text"
+                    data-en="MK Food brings classic Chinese New Year cookies with a local Muar touch — crafted for family gatherings, gifting, and festive moments."
+                    data-zh="MK Food 带来带有麻坡本地风味的经典华人新年饼干，适合家庭团聚、节庆送礼与新年分享。">
+                    MK Food brings classic Chinese New Year cookies with a local Muar touch — crafted for family gatherings, gifting, and festive moments.
                 </p>
 
                 <div class="hero-actions">
-                    <a class="btn primary" href="#products">View Cookies</a>
-                    <a class="btn secondary" href="#contact">Order via WhatsApp</a>
+                    <a class="btn primary" href="#products" data-en="View Cookies" data-zh="查看饼干">View Cookies</a>
+                    <a class="btn secondary" href="#contact" data-en="Order via WhatsApp" data-zh="通过 WhatsApp 下单">Order via WhatsApp</a>
                 </div>
             </div>
 
