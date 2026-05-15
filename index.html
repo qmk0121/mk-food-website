@@ -16,7 +16,7 @@
                 <div class="logo-placeholder">MK</div>
                 <div>
                     <h1>MK Food</h1>
-                    <p>Muar, Malaysia</p>
+                    <p data-en="Muar, Malaysia" data-zh="马来西亚 · 麻坡">Muar, Malaysia</p>
                 </div>
             </div>
 
@@ -24,10 +24,12 @@
 
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="index.html" data-en="Home" data-zh="首页">Home</a></li>
-                <li><a href="#products" data-en="Cookies" data-zh="饼干">Cookies</a></li>
+                <li><a href="#products" data-en="Cookies" data-zh="年饼">Cookies</a></li>
                 <li><a href="#story" data-en="Our Story" data-zh="品牌故事">Our Story</a></li>
                 <li><a href="#contact" data-en="Order" data-zh="下单">Order</a></li>
-                <li><button class="language-btn" onclick="toggleLanguage()">中文</button></li>
+                <li>
+                    <button class="language-btn" onclick="toggleLanguage()">中文</button>
+                </li>
             </ul>
         </nav>
     </header>
@@ -36,85 +38,212 @@
 
         <section class="hero">
             <div class="hero-content">
-                <p class="eyebrow">Chinese New Year Cookies · Muar, Malaysia</p>
+                <p 
+                    class="eyebrow"
+                    data-en="Chinese New Year Cookies · Muar, Malaysia"
+                    data-zh="华人新年年饼 · 马来西亚麻坡"
+                >
+                    Chinese New Year Cookies · Muar, Malaysia
+                </p>
 
-                <h2 
+                <h2
                     data-en="Homemade festive cookies for a warmer celebration."
-                    data-zh="手作年饼，让团圆更有年味。">
+                    data-zh="手作年饼，让团圆更有年味。"
+                >
                     Homemade festive cookies for a warmer celebration.
                 </h2>
 
-                <p class="hero-text"
+                <p 
+                    class="hero-text"
                     data-en="MK Food brings classic Chinese New Year cookies with a local Muar touch — crafted for family gatherings, gifting, and festive moments."
-                    data-zh="MK Food 带来带有麻坡本地风味的经典华人新年饼干，适合家庭团聚、节庆送礼与新年分享。">
+                    data-zh="MK Food 带来带有麻坡本地风味的经典华人新年饼干，适合家庭团聚、节庆送礼与新年分享。"
+                >
                     MK Food brings classic Chinese New Year cookies with a local Muar touch — crafted for family gatherings, gifting, and festive moments.
                 </p>
 
                 <div class="hero-actions">
-                    <a class="btn primary" href="#products" data-en="View Cookies" data-zh="查看饼干">View Cookies</a>
-                    <a class="btn secondary" href="#contact" data-en="Order via WhatsApp" data-zh="通过 WhatsApp 下单">Order via WhatsApp</a>
+                    <a 
+                        class="btn primary" 
+                        href="#products"
+                        data-en="View Cookies"
+                        data-zh="查看年饼"
+                    >
+                        View Cookies
+                    </a>
+
+                    <a 
+                        class="btn secondary" 
+                        href="#contact"
+                        data-en="Order via WhatsApp"
+                        data-zh="WhatsApp 下单"
+                    >
+                        Order via WhatsApp
+                    </a>
                 </div>
             </div>
 
             <div class="hero-card">
                 <div class="cookie-visual">🍪</div>
-                <h3>2026 CNY Collection</h3>
-                <p>Pineapple tarts, butter cookies, almond cookies and more.</p>
+
+                <h3 
+                    data-en="2026 CNY Collection"
+                    data-zh="2026 新年年饼系列"
+                >
+                    2026 CNY Collection
+                </h3>
+
+                <p
+                    data-en="Pineapple tarts, butter cookies, almond cookies and more."
+                    data-zh="凤梨酥、牛油饼、杏仁饼，以及更多新年经典年饼。"
+                >
+                    Pineapple tarts, butter cookies, almond cookies and more.
+                </p>
             </div>
         </section>
 
         <section class="section" id="products">
             <div class="section-heading">
-                <p class="eyebrow">Our Cookies</p>
-                <h2>Festive favourites made for sharing.</h2>
+                <p 
+                    class="eyebrow"
+                    data-en="Our Cookies"
+                    data-zh="我们的年饼"
+                >
+                    Our Cookies
+                </p>
+
+                <h2
+                    data-en="Festive favourites made for sharing."
+                    data-zh="适合分享与送礼的新年经典。"
+                >
+                    Festive favourites made for sharing.
+                </h2>
             </div>
 
             <div class="product-grid">
                 <article class="product-card">
                     <div class="product-image">🍍</div>
-                    <h3>Pineapple Tarts</h3>
-                    <p>Classic golden pineapple tarts with a rich festive flavour.</p>
+
+                    <h3
+                        data-en="Pineapple Tarts"
+                        data-zh="凤梨酥"
+                    >
+                        Pineapple Tarts
+                    </h3>
+
+                    <p
+                        data-en="Classic golden pineapple tarts with a rich festive flavour."
+                        data-zh="金黄酥香的经典凤梨酥，带来浓浓的新年风味。"
+                    >
+                        Classic golden pineapple tarts with a rich festive flavour.
+                    </p>
                 </article>
 
                 <article class="product-card">
                     <div class="product-image">🧈</div>
-                    <h3>Butter Cookies</h3>
-                    <p>Fragrant, buttery and crisp — suitable for gifting and family treats.</p>
+
+                    <h3
+                        data-en="Butter Cookies"
+                        data-zh="牛油饼"
+                    >
+                        Butter Cookies
+                    </h3>
+
+                    <p
+                        data-en="Fragrant, buttery and crisp — suitable for gifting and family treats."
+                        data-zh="香浓牛油味，口感酥脆，适合送礼与家庭享用。"
+                    >
+                        Fragrant, buttery and crisp — suitable for gifting and family treats.
+                    </p>
                 </article>
 
                 <article class="product-card">
                     <div class="product-image">🌰</div>
-                    <h3>Almond Cookies</h3>
-                    <p>Nutty, crunchy and traditional, perfect for Chinese New Year.</p>
+
+                    <h3
+                        data-en="Almond Cookies"
+                        data-zh="杏仁饼"
+                    >
+                        Almond Cookies
+                    </h3>
+
+                    <p
+                        data-en="Nutty, crunchy and traditional, perfect for Chinese New Year."
+                        data-zh="坚果香气浓郁、口感香脆，是华人新年的传统选择。"
+                    >
+                        Nutty, crunchy and traditional, perfect for Chinese New Year.
+                    </p>
                 </article>
             </div>
         </section>
 
         <section class="story-section" id="story">
             <div>
-                <p class="eyebrow">Our Story</p>
-                <h2>From Muar, made with festive sincerity.</h2>
+                <p 
+                    class="eyebrow"
+                    data-en="Our Story"
+                    data-zh="品牌故事"
+                >
+                    Our Story
+                </p>
+
+                <h2
+                    data-en="From Muar, made with festive sincerity."
+                    data-zh="源自麻坡，用心制作每一份年味。"
+                >
+                    From Muar, made with festive sincerity.
+                </h2>
             </div>
 
-            <p>
-                MK Food Industries Sdn Bhd is building a Malaysian festive cookie brand
-                rooted in Muar. We focus on simple, familiar flavours that bring people
-                together during Chinese New Year.
+            <p
+                data-en="MK Food Industries Sdn Bhd is building a Malaysian festive cookie brand rooted in Muar. We focus on simple, familiar flavours that bring people together during Chinese New Year."
+                data-zh="MK FOOD INDUSTRIES SDN BHD 是来自马来西亚麻坡的节庆年饼品牌。我们专注于熟悉、温暖、适合分享的传统风味，让每一个农历新年更有家的味道。"
+            >
+                MK Food Industries Sdn Bhd is building a Malaysian festive cookie brand rooted in Muar. We focus on simple, familiar flavours that bring people together during Chinese New Year.
             </p>
         </section>
 
         <section class="order-section" id="contact">
-            <p class="eyebrow">Order Now</p>
-            <h2>Ready for Chinese New Year gifting?</h2>
-            <p>Contact us to check product availability, pricing and delivery options.</p>
+            <p 
+                class="eyebrow"
+                data-en="Order Now"
+                data-zh="立即下单"
+            >
+                Order Now
+            </p>
 
-            <button class="btn primary" onclick="orderNow()">Order via WhatsApp</button>
+            <h2
+                data-en="Ready for Chinese New Year gifting?"
+                data-zh="准备好新年送礼了吗？"
+            >
+                Ready for Chinese New Year gifting?
+            </h2>
+
+            <p
+                data-en="Contact us to check product availability, pricing and delivery options."
+                data-zh="欢迎联系我们查询产品供应、价格与配送方式。"
+            >
+                Contact us to check product availability, pricing and delivery options.
+            </p>
+
+            <button 
+                class="btn primary" 
+                onclick="orderNow()"
+                data-en="Order via WhatsApp"
+                data-zh="通过 WhatsApp 下单"
+            >
+                Order via WhatsApp
+            </button>
         </section>
 
     </main>
 
     <footer>
-        <p>© 2026 MK FOOD INDUSTRIES SDN BHD. All rights reserved.</p>
+        <p
+            data-en="© 2026 MK FOOD INDUSTRIES SDN BHD. All rights reserved."
+            data-zh="© 2026 MK FOOD INDUSTRIES SDN BHD. 版权所有。"
+        >
+            © 2026 MK FOOD INDUSTRIES SDN BHD. All rights reserved.
+        </p>
     </footer>
 
     <script src="js/script.js"></script>
