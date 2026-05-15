@@ -1,2 +1,116 @@
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MK Food | Chinese New Year Cookies from Muar</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="brand">
+                <div class="logo-placeholder">MK</div>
+                <div>
+                    <h1>MK Food</h1>
+                    <p>Muar, Malaysia</p>
+                </div>
+            </div>
+
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#products">Cookies</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#contact">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Chinese New Year Cookies · Muar, Malaysia</p>
+
+                <h2>Homemade festive cookies for a warmer celebration.</h2>
+
+                <p class="hero-text">
+                    MK Food brings classic Chinese New Year cookies with a local Muar touch —
+                    crafted for family gatherings, gifting, and festive moments.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn primary" href="#products">View Cookies</a>
+                    <a class="btn secondary" href="#contact">Order via WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="cookie-visual">🍪</div>
+                <h3>2026 CNY Collection</h3>
+                <p>Pineapple tarts, butter cookies, almond cookies and more.</p>
+            </div>
+        </section>
+
+        <section class="section" id="products">
+            <div class="section-heading">
+                <p class="eyebrow">Our Cookies</p>
+                <h2>Festive favourites made for sharing.</h2>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">🍍</div>
+                    <h3>Pineapple Tarts</h3>
+                    <p>Classic golden pineapple tarts with a rich festive flavour.</p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">🧈</div>
+                    <h3>Butter Cookies</h3>
+                    <p>Fragrant, buttery and crisp — suitable for gifting and family treats.</p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">🌰</div>
+                    <h3>Almond Cookies</h3>
+                    <p>Nutty, crunchy and traditional, perfect for Chinese New Year.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="story-section" id="story">
+            <div>
+                <p class="eyebrow">Our Story</p>
+                <h2>From Muar, made with festive sincerity.</h2>
+            </div>
+
+            <p>
+                MK Food Industries Sdn Bhd is building a Malaysian festive cookie brand
+                rooted in Muar. We focus on simple, familiar flavours that bring people
+                together during Chinese New Year.
+            </p>
+        </section>
+
+        <section class="order-section" id="contact">
+            <p class="eyebrow">Order Now</p>
+            <h2>Ready for Chinese New Year gifting?</h2>
+            <p>Contact us to check product availability, pricing and delivery options.</p>
+
+            <button class="btn primary" onclick="orderNow()">Order via WhatsApp</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 MK FOOD INDUSTRIES SDN BHD. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
